@@ -1,0 +1,21 @@
+{
+  "name": "bare-sect",
+  "version": "0.1.0",
+  "authors": [
+    "Eric Harms <barefoot.css@gmail.com>"
+  ],
+  "description": "The sect object sections off content inside a grid container.",
+  "main": "_objects.sect.scss",
+  "keywords": [
+    "barefoot",
+    "oocss",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/barefootcss/objects.sect",
+  "dependencies": {
+    "bare-defaults": "~0.1.0",
+    "bare-functions": "~0.1.0" 
+  }
+}

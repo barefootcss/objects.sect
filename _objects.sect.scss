@@ -1,0 +1,36 @@
+// 
+// Declarations  
+// ========================================================================== 
+
+// 
+// Defaults:
+// 
+
+$bare-sect-max-width: 		   	980px !default;
+
+/* 
+   #sect
+   ========================================================================== */
+
+/**
+ * The sect object sections off content inside a grid container.
+ *
+ * Usage:
+ *
+ * <div class="sect">
+ *     <div class="sect__body">
+ *     </div>
+ * </div>
+ */
+
+.#{$bare-ns}sect__body {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+@media (min-width: bareEm($bare-bp-l)) {
+
+    .#{$bare-ns}sect__body {
+        max-width: $bare-sect-max-width;
+    }
+}
