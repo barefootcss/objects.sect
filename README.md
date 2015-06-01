@@ -11,7 +11,7 @@ The `sect` object sections off content inside a grid container.
 
 Install using Bower:
 
-	$ bower --save bare-sect
+	$ bower install --save bare-sect
 
 Import into project:
 
