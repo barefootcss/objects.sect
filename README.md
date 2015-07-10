@@ -1,4 +1,4 @@
-#Pack Object
+#Sect Object
 
 The `sect` object sections off content inside a grid container.
 
