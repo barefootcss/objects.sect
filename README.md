@@ -74,7 +74,7 @@ The `sect--ls` option applies an large padding above and below the section.
 
 The `sect--xl` option applies an extra-large padding above and below the section.
 
-	<div class="o-sect o-sect--xlfs">
+	<div class="o-sect o-sect--xl">
 		
 		<div class="o-sect__body">
 		
