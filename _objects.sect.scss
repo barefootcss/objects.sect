@@ -8,6 +8,16 @@
 
 $bare-sect-max-width: 		   	980px !default;
 
+// 
+// Features:
+// 
+
+$bare-sect--xs:					false !default;
+$bare-sect--s:					false !default;
+$bare-sect--m:					false !default;
+$bare-sect--l:					false !default;
+$bare-sect--xl:					false !default;
+
 /* 
    #sect
    ========================================================================== */
@@ -18,19 +28,82 @@ $bare-sect-max-width: 		   	980px !default;
  * Usage:
  *
  * <div class="sect">
+ *
  *     <div class="sect__body">
+ *
  *     </div>
+ *
  * </div>
  */
 
-.#{$bare-ns}sect__body {
+.o-sect__body {
     max-width: 90%;
     margin: 0 auto;
 }
 
 @media (min-width: bareMedia($bare-bp-xl)) {
 
-    .#{$bare-ns}sect__body {
+    .o-sect__body {
         max-width: $bare-sect-max-width;
     }
+}
+
+// 
+// #sect--xs
+// ========================================================================== 
+
+@if ($bare-sect--xs == true) {
+
+	.o-sect--xs {
+		padding: bareRem($bare-sp-xs) 0;
+	}
+
+}
+
+// 
+// #sect--s
+// ========================================================================== 
+
+@if ($bare-sect--s == true) {
+
+	.o-sect--s {
+		padding: bareRem($bare-sp-s) 0;
+	}
+
+}
+
+// 
+// #sect--m
+// ========================================================================== 
+
+@if ($bare-sect--m == true) {
+
+	.o-sect--m {
+		padding: bareRem($bare-sp-m) 0;
+	}
+
+}
+
+// 
+// #sect--l
+// ========================================================================== 
+
+@if ($bare-sect--l == true) {
+
+	.o-sect--l {
+		padding: bareRem($bare-sp-l) 0;
+	}
+
+}
+
+// 
+// #sect--xl
+// ========================================================================== 
+
+@if ($bare-sect--xl == true) {
+
+	.o-sect--xl {
+		padding: bareRem($bare-sp-xl) 0;
+	}
+
 }
